@@ -1,0 +1,74 @@
+{
+  "personal": {
+    "name": "Deepak Sai Manukonda",
+    "title": "Full Stack Developer",
+    "subtitle": "Building robust web solutions and elegant user experiences",
+    "bio": "I am a passionate software engineer specializing in building modern web applications. With expertise spanning frontend design systems and robust backend APIs, I strive to create high-performance web software that makes a real-world impact. Welcome to my personal portfolio showcasing my academic journey, projects, and tech capabilities.",
+    "email": "mdeepak1610@gmail.com",
+    "location": "India",
+    "socials": {
+      "github": "https://github.com/Deepak161006",
+      "linkedin": "https://www.linkedin.com/in/deepak-manukonda/"
+    },
+    "resumeUrl": "#"
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Technology in Computer Science & Engineering",
+      "institution": "Vignan's Foundation for Science, Technology and Research",
+      "duration": "2023 - Present",
+      "description": "Focusing on software engineering methodologies, database management systems, data structures, algorithms, and web technologies. Maintained a 8.2 CGPA."
+    },
+    {
+      "id": 2,
+      "degree": "Higher Secondary Education (Class XII)",
+      "institution": "Westberry School",
+      "duration": "2021 - 2023",
+      "description": "Completed school curriculum majoring in Physics, Chemistry, and Mathematics with computer science electives."
+    }
+  ],
+  "techStack": {
+    "frontend": [
+      { "name": "React.js", "level": "Advanced", "icon": "Atom" },
+      { "name": "Vite", "level": "Advanced", "icon": "Zap" },
+      { "name": "Tailwind CSS", "level": "Advanced", "icon": "Wind" },
+      { "name": "HTML5 & CSS3", "level": "Expert", "icon": "Code" },
+      { "name": "JavaScript (ES6+)", "level": "Advanced", "icon": "Terminal" }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": "Intermediate", "icon": "Server" },
+      { "name": "Express.js", "level": "Intermediate", "icon": "Cpu" },
+      { "name": "REST APIs", "level": "Advanced", "icon": "Database" }
+    ],
+    "tools": [
+      { "name": "Git & GitHub", "level": "Advanced", "icon": "GitBranch" },
+      { "name": "VS Code", "level": "Expert", "icon": "Edit3" },
+      { "name": "npm & npx", "level": "Advanced", "icon": "Package" }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Online Learning platform",
+      "duration": "October 2025 – December 2025",
+      "description": "Using Node.js and Express.js, a RESTful API was designed to handle student profiles, dynamic game states, and real-time scoring. created a highly responsive React.js frontend with an emphasis on high-performance games and user-friendly UX/UI for younger students. MongoDB was implemented to store and query data related to longitudinal progress tracking and complicated instructional content. included secure role-based access with JWT-based authentication to give student users a private, secure environment.",
+      "tech": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Express", "React.js", "REST API"],
+      "github": "https://github.com/Deepak161006",
+      "demo": "https://edulearn-tekj.onrender.com/",
+      "category": "Fullstack",
+      "image": "project_ecommerce"
+    },
+    {
+      "id": 2,
+      "title": "Orderly Application",
+      "duration": "October 2025 – December 2025",
+      "description": "I have deployed both frontend and backend Orderly application, which is similar to Swigy. This Orderly application is build using MERN (MongoDB, Express, React, Node). This application allows user to sign up, login, search, sort, asks location, select products, and add them to the cart.",
+      "tech": ["React-Vite", "Node.js", "Express", "MongoDB"],
+      "github": "https://github.com/Deepak161006",
+      "demo": "https://orderly-bjp0.onrender.com/",
+      "category": "Fullstack",
+      "image": "project_portfolio"
+    }
+  ]
+}
