@@ -78,7 +78,7 @@ app.post('/api/contact', (req, res) => {
   // Email format validation
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailRegex.test(email)) {
-    return res.status(400).json({ error: 'Invalid email address' });
+    return res.status(400).json({ error: 'Please enter a valid email address.' });
   }
 
   try {
@@ -102,7 +102,7 @@ app.post('/api/contact', (req, res) => {
     // Send email alert if SMTP is configured
     if (transporter) {
       const mailOptions = {
-        from: `"${name}" <${process.env.EMAIL_USER}>`,
+        from: `"${name} (${email})" <${process.env.EMAIL_USER}>`,
         replyTo: email,
         to: process.env.RECEIVER_EMAIL || 'mdeepak1610@gmail.com',
         subject: `New Portfolio Message: ${subject || 'No Subject'}`,
