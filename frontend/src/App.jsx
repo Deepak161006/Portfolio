@@ -104,7 +104,8 @@ export default function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/profile');
+        const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
+        const response = await fetch(`${API_BASE}/api/profile`);
         if (response.ok) {
           const data = await response.json();
           setProfile(data);

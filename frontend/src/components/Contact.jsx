@@ -34,7 +34,8 @@ export default function Contact({ personalData }) {
     }
 
     try {
-      const response = await fetch('/api/contact', {
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
+      const response = await fetch(`${API_BASE}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
