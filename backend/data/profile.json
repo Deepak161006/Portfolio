@@ -69,6 +69,39 @@
       "demo": "https://orderly-bjp0.onrender.com/",
       "category": "Fullstack",
       "image": "project_portfolio"
+    },
+    {
+      "id": 3,
+      "title": "AgriConnect Platform",
+      "duration": "October 2025 – November 2025",
+      "description": "A comprehensive digital marketplace and networking platform connecting farmers, distributors, and buyers. Implemented with a responsive React.js and Vite frontend using Tailwind CSS, and integrated with a Node.js/Express backend to manage inventory, product listings, and user communication.",
+      "tech": ["React.js", "Vite", "Tailwind CSS", "Node.js", "Express", "REST API"],
+      "github": "https://github.com/Deepak161006/agriconnect-vite",
+      "demo": "https://agriconnect-vite.onrender.com",
+      "category": "Fullstack",
+      "image": "project_agriconnect"
+    },
+    {
+      "id": 4,
+      "title": "AI-TWIN Assessment Platform",
+      "duration": "February 2026",
+      "description": "An intelligent, interactive AI assessment platform designed to help users discover insights about themselves. Features a sleek, responsive user interface developed using React and Vite, utilizing custom components and optimized animations for a seamless user assessment journey.",
+      "tech": ["React.js", "Vite", "Tailwind CSS", "REST API"],
+      "github": "https://github.com/Deepak161006/ai-twin-frontend",
+      "demo": "https://ai-twin-frontend.onrender.com",
+      "category": "Frontend",
+      "image": "project_aitwin"
+    },
+    {
+      "id": 5,
+      "title": "Sleek Web Calculator",
+      "duration": "September 2025",
+      "description": "A sleek, minimal web calculator built using HTML, CSS, and vanilla JavaScript. Features a dark mode interface with interactive grid layout supporting basic arithmetic operations, decimal math, percentage calculations, and a clear display function.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/Deepak161006/Calculator",
+      "demo": "https://mycalculator-mzp5.onrender.com",
+      "category": "Frontend",
+      "image": "project_calculator"
     }
   ]
 }
